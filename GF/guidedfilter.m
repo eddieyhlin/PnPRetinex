@@ -1,5 +1,7 @@
 function q = guidedfilter(I, p, r, eps)
 %   GUIDEDFILTER   O(1) time implementation of guided filter.
+%   He, Kaiming, Jian Sun, and Xiaoou Tang. "Guided image filtering." European conference on computer vision. Springer, Berlin, Heidelberg, 2010.
+%   Source code is from http://kaiminghe.com/eccv10/
 %
 %   - guidance image: I (should be a gray-scale/single channel image)
 %   - filtering input image: p (should be a gray-scale/single channel image)
